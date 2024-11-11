@@ -1,0 +1,18 @@
+{% if score >= 60 %}
+    합격!
+{% else %}
+    불합격!
+{% endif %}
+
+<hr>
+
+{{var|linebreaks}}
+<hr>
+{{var|truncatechars:100}}
+<hr>
+{{var|truncatewords:50}}
+
+<hr>
+{{d1}}<br>
+{{d1|date:'Y-m-d'}}<br>
+{{d1|time:'P'}}<br>
